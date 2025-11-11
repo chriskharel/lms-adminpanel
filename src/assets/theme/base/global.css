@@ -1,0 +1,17 @@
+/* Global table cell fixes for Material Dashboard tables */
+.MuiTableCell-root {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  vertical-align: middle !important;
+}
+
+.MuiTableRow-root {
+  vertical-align: middle !important;
+}
+
+/* Avatar and text alignment in table cells */
+.instructor-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
